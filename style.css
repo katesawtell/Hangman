@@ -1,0 +1,97 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body{
+  background-color: #648787;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  font-size: 4em;
+  color: #F95738;
+  font-weight: bold;
+}
+
+#categories button{
+  background-color: #DACC3E;
+  color: #0E0F19;
+  padding: 15px;
+  border-radius: 12px;
+  border: none;
+  font-weight: bold;
+}
+
+p{
+  font-size:2em;
+}
+
+#chosenCategory{
+  font-size: 1.5em;
+}
+
+#reset{
+  display: none;
+  margin: auto;
+}
+
+
+img{
+  display: none;
+  width:600px;
+  height:410px;
+  object-fit:cover;
+  object-position: 50% 50%;
+  margin:auto;
+}
+
+#wrongLetters{
+  display: none;
+  border: 2px solid #F95738;
+  border-radius: 5px;
+  width: 400px;
+  height: 100px;
+  margin:auto;
+  font-size: 1.5em;
+}
+
+#letterLines{
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#keyboard {
+  display: none;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 10px;
+}
+
+.key {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+  font-size: 24px;
+  text-align: center;
+  background-color: #DACC3E;
+  border: 1px solid #57886C;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.key:hover {
+  background-color: #57886C;
+  color: white;
+}
+
+.key:pressed{
+  background-color: black;
+  color: white;
+}
+
+
+
