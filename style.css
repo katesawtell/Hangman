@@ -14,6 +14,7 @@ h1{
   font-size: 4em;
   color: #F95738;
   font-weight: bold;
+  padding: 20px;
 }
 
 #categories button{
@@ -41,8 +42,8 @@ p{
 
 img{
   display: none;
-  width:600px;
-  height:410px;
+  width:400px;
+  height:310px;
   object-fit:cover;
   object-position: 50% 50%;
   margin:auto;
@@ -52,8 +53,8 @@ img{
   display: none;
   border: 2px solid #F95738;
   border-radius: 5px;
-  width: 400px;
-  height: 100px;
+  width: 300px;
+  height: 200px;
   margin:auto;
   font-size: 1.5em;
 }
@@ -93,5 +94,10 @@ img{
   color: white;
 }
 
+#middle{
+  display: flex;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 
 

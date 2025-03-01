@@ -5,71 +5,74 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>Hangman</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
   <h1>Hangman</h1>
-  
-    <h2 id= "header2" class = "fw-light"> Figure out the word before its too late.. </h2>
-      <div id = "game">
-        
-        <p id = "begin" class = "fw = semibold">To begin Choose a Category</p>
 
-        <div id = "categories">
-          <br>
-          <br>
-          <button id = "astronomy" type="button" >Astronomy</button>
-          <button id = "food" type="button" >Food</button>
-          <button id = "animals" type="button" >Animals</button>
-        </div>
-        
-        <div id = "chosenCategory"></div>
-        <button id = "reset" class="btn btn-light btn-lg" type = reset >New Game?</button>
-  
-        <img id = "image" src = "img/main.png">
+  <h2 id="header2" class="fw-light"> Figure out the word before its too late.. </h2>
+  <div id="game">
 
-        <div id = "word"></div>
-        <div id = "letterLines"></div>
+    <p id="begin" class="fw = semibold">To begin Choose a Category</p>
 
-        <div id = "wrongLetters">
-        Incorrect Letters: 
-          <br>
-        </div>
+    <div id="categories">
+      <br>
+      <br>
+      <button id="astronomy" type="button">Astronomy</button>
+      <button id="food" type="button">Food</button>
+      <button id="animals" type="button">Animals</button>
+    </div>
 
-        <div id = "keyboard">
-          <button class="key" pressed="q">Q</button>
-          <button class="key" pressed="w">W</button>
-          <button class="key" pressed="e">E</button>
-          <button class="key" pressed="r">R</button>
-          <button class="key" pressed="t">T</button>
-          <button class="key" pressed="y">Y</button>
-          <button class="key" pressed="u">U</button>
-          <button class="key" pressed="i">I</button>
-          <button class="key" pressed="o">O</button>
-          <button class="key" pressed="p">P</button>
-          <br>
-          <button class="key" pressed="a">A</button>
-          <button class="key" pressed="s">S</button>
-          <button class="key" pressed="d">D</button>
-          <button class="key" pressed="f">F</button>
-          <button class="key" pressed="g">G</button>
-          <button class="key" pressed="h">H</button>
-          <button class="key" pressed="j">J</button>
-          <button class="key" pressed="k">K</button>
-          <button class="key" pressed="l">L</button>
-          <br>
-          <button class="key" pressed="z">Z</button>
-          <button class="key" pressed="x">X</button>
-          <button class="key" pressed="c">C</button>
-          <button class="key" pressed="v">V</button>
-          <button class="key" pressed="b">B</button>
-          <button class="key" pressed="n">N</button>
-          <button class="key" pressed="m">M</button>
+    <div id="chosenCategory"></div>
+    <button id="reset" class="btn btn-light btn-lg" type=reset>New Game?</button>
+
+    <div id="middle">
+      <img id="image" src="img/main.png">
+
+      <div id="wrongLetters">
+        Incorrect Letters:
+        <br>
       </div>
-      
-  <script src="script.js"></script>
+    </div>
+
+    <div id="word"></div>
+    <div id="letterLines"></div>
+
+    <div id="keyboard">
+      <button class="key" pressed="q">Q</button>
+      <button class="key" pressed="w">W</button>
+      <button class="key" pressed="e">E</button>
+      <button class="key" pressed="r">R</button>
+      <button class="key" pressed="t">T</button>
+      <button class="key" pressed="y">Y</button>
+      <button class="key" pressed="u">U</button>
+      <button class="key" pressed="i">I</button>
+      <button class="key" pressed="o">O</button>
+      <button class="key" pressed="p">P</button>
+      <br>
+      <button class="key" pressed="a">A</button>
+      <button class="key" pressed="s">S</button>
+      <button class="key" pressed="d">D</button>
+      <button class="key" pressed="f">F</button>
+      <button class="key" pressed="g">G</button>
+      <button class="key" pressed="h">H</button>
+      <button class="key" pressed="j">J</button>
+      <button class="key" pressed="k">K</button>
+      <button class="key" pressed="l">L</button>
+      <br>
+      <button class="key" pressed="z">Z</button>
+      <button class="key" pressed="x">X</button>
+      <button class="key" pressed="c">C</button>
+      <button class="key" pressed="v">V</button>
+      <button class="key" pressed="b">B</button>
+      <button class="key" pressed="n">N</button>
+      <button class="key" pressed="m">M</button>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
